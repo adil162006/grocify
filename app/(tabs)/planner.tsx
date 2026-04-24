@@ -23,7 +23,7 @@ const PlannerScreen = () => {
       style={{ flex: 1 }}
     >
       <ScrollView
-        contentContainerStyle={{ padding: 20, gap: 14 }}
+        contentContainerStyle={{ padding: 20, paddingBottom: 100, gap: 14 }}
         showsVerticalScrollIndicator={false}
         className="flex-1 bg-background py-4"
         contentInsetAdjustmentBehavior="automatic"

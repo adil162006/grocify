@@ -12,7 +12,7 @@ const InsightsScreen = () => {
       <ScrollView
         className="flex-1 bg-background py-4"
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ padding: 20, gap: 14 }}
+        contentContainerStyle={{ padding: 20, paddingBottom: 100, gap: 14 }}
         contentInsetAdjustmentBehavior="automatic"
       >
         <TabScreenBackground />
